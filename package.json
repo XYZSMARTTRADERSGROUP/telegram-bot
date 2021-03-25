@@ -3,20 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "supervisor index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aminroosta/telegram-bot.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "@amnrst",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aminroosta/telegram-bot/issues"
-  },
   "homepage": "https://github.com/aminroosta/telegram-bot#readme",
   "dependencies": {
+    "@vitalets/google-translate-api": "^5.1.0",
     "dotenv": "^8.2.0",
+    "google-translate-tts": "^0.4.0-dev",
     "node-telegram-bot-api": "^0.51.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
   }
 }
